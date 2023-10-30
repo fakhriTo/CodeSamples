@@ -6,6 +6,8 @@ set(CMAKE_CUDA_STANDARD 17)
 
 project(TutorialSamples LANGUAGES CUDA CXX)
 
+add_subdirectory(000CudaKNN)
+add_subdirectory(000CPPKNN)
 add_subdirectory(00_MyGPU)
 add_subdirectory(01_HelloGPU)
 add_subdirectory(02_HostDeviceFunctions)
